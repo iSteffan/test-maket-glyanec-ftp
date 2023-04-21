@@ -29,7 +29,7 @@ img {
 }
 
 /* ------------------------------------------------Fonts------------------------------------------------ */
-@font-face {
+/* @font-face {
   font-family: 'Inter';
   src: url(../fonts/Inter-Regular.ttf) format('truetype');
   font-style: normal;
@@ -48,7 +48,7 @@ img {
   src: url(../fonts/Inter-Bold.ttf) format('truetype');
   font-style: normal;
   font-weight: 700;
-}
+} */
 
 /* ------------------------------------------------General------------------------------------------------ */
 /* body {
@@ -65,10 +65,10 @@ img {
   margin-left: auto;
 }
 
-@media screen and (min-width: 375px) and (max-width: 1575px) {
+/* @media screen and (min-width: 375px) and (max-width: 1575px) {
   .container {
     width: 375px;
     padding-right: 4px;
     padding-left: 4px;
   }
-}
+} */
