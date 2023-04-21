@@ -1,0 +1,74 @@
+/* ------------------------------------------------Reset------------------------------------------------ */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------Fonts------------------------------------------------ */
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ------------------------------------------------General------------------------------------------------ */
+/* body {
+  font-family: ;
+  font-size: ;
+  color: ;
+  background-color: ;
+} */
+
+.container {
+  /* outline: 1px solid tomato; */
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1575px) {
+  .container {
+    width: 375px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
